@@ -1,0 +1,21 @@
+.btn {
+    border-radius: 57px;
+    background: #7d8dca;
+    box-shadow: inset 12px 12px 23px #6c79ae,
+        inset -12px -12px 23px #8fa1e6;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+i {
+    font-size: 1.60rem;
+    padding: 10px;
+}
+
+button {
+    outline: none;
+    border: 0;
+}
