@@ -1,6 +1,6 @@
 .player {
     width: 100%;
-    max-width: 360px;
+    max-width: 380px;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -8,8 +8,8 @@
     align-items: center;
     border-radius: 25px;
     background: #7d8dca;
-    box-shadow:  14px 14px 33px #6572a4,
-             -14px -14px 33px #95a8f0;
+    box-shadow: 14px 14px 33px #6572a4,
+        -14px -14px 33px #95a8f0;
 }
 
 p {
@@ -21,4 +21,16 @@ audio {
     width: 100%;
     max-width: 300px;
     border: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .player {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .player {
+        max-width: 340px;
+    }
 }
