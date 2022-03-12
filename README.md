@@ -1,6 +1,6 @@
-# Invoice App
+# Music App
 
-![Design preview for the invoice app.](./src/images/preview.jpg)
+![Design preview for the music app.](./src/images/preview.jpg)
 
 ### Tools
 
